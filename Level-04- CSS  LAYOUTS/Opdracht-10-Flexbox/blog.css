@@ -1,0 +1,9 @@
+.blogpost {
+  width: 300px;
+  border: 1px solid black;
+}
+.blogpost-container {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
