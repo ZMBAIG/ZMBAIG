@@ -1,0 +1,19 @@
+/* Enkele voorwaarden voor het juiste resultaat
+
+Jullie mogen enkel aanpassingen maken met de CSS tab van Codepen (dus geen HTML veranderingen)
+Binnen de CSS mag je enkel de Transform property van CSS gebruiken om het resultaat te behalen.
+En dit alleen op de Batman class
+Tip: Maak gebruik van de Rotate value om het horizontale logo van Batman verticaal te maken zodat
+ The Joker bedekt wordt */
+
+.batman {
+  position: relative;
+  top: 0;
+  left: 0px;
+  transform: translate(650px, 200px) scale(5) rotatey(70deg);
+}
+.joker {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
