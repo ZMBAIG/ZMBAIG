@@ -1,0 +1,15 @@
+a.hove:hover {
+  color: lightblue;
+  font-size: 2em;
+}
+a.acti:active {
+  color: red;
+  font-style: italic;
+}
+a.visi:visited {
+  color: yellow;
+}
+input:focus {
+  color: green;
+  font-size: 20px;
+}
