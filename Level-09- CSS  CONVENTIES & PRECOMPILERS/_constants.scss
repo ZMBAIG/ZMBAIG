@@ -1,0 +1,20 @@
+@mixin featuredFont {
+  .hero-text {
+    font-family: cursive;
+    font-size: 1em;
+    &:hover {
+      background-color: lime;
+      width: 70%;
+    }
+  }
+}
+@include featuredFont();
+
+.featured {
+  background-color: $primary-kleur;
+  padding: $standaardPadding;
+  font-family: $fontFamily;
+}
+.about {
+  font-family: $fontFamily;
+}
