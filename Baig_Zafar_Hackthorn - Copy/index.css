@@ -1,0 +1,100 @@
+body {
+  background-color: rgb(133, 182, 182);
+}
+h1 {
+  border: inset 5px;
+  margin: 0.3em;
+  padding: 0.3em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  font-size: 4em;
+  color: rgb(12, 36, 36);
+  letter-spacing: 25px;
+  text-shadow: cadetblue 0 6px;
+}
+h3 {
+  background-color: ivory;
+}
+.adams {
+  font-family: Arial, Helvetica, sans-serif;
+}
+ul {
+  list-style-type: none;
+  padding: 0%;
+  margin: 0%;
+  overflow: hidden;
+  background-color: rgb(46, 87, 87);
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: rgb(117, 214, 243);
+}
+.top-search {
+  float: right;
+  border: inset;
+  margin: 12px auto;
+}
+.top {
+  border: outset 4px;
+}
+.head {
+  background-color: rgb(22, 77, 58);
+  grid-area: header;
+  text-align: center;
+  text-shadow: rgb(99, 107, 107) 2px 2px;
+  border: rgb(105, 104, 104) solid;
+  border-radius: 1em;
+  font-family: "Pattaya", sans-serif;
+  font-size: 1.5em;
+  box-shadow: 3px 3px;
+  color: white;
+}
+.main {
+  background-color: rgb(146, 224, 228);
+  grid-area: main;
+  padding-left: 15px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+iframe {
+  border: dashed rgb(80, 0, 0) 0.5em;
+  width: 80%;
+  margin-left: 5em;
+}
+.asid {
+  background-color: rgb(120, 166, 250);
+  grid-area: aside;
+  padding: 1em;
+}
+.parent {
+  display: grid;
+  grid-template-columns: 30px 1fr 1fr 30px;
+  grid-template-rows: 200px 500px 200px;
+  gap: 10px;
+  height: 1100px;
+  grid-template-areas:
+    ". header head ."
+    ". main aside .";
+}
+@media (min-width: 1024px) {
+  .parent {
+    grid-template-rows: 200px 100px 1fr 35px;
+    grid-template-columns: 30px 1fr 200px 30px;
+    grid-template-areas:
+      ". header header ."
+      ". head head ."
+      ". main aside .";
+  }
+}
