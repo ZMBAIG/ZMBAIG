@@ -1,0 +1,20 @@
+body {
+  background-color: rgb(191, 201, 216);
+}
+ul {
+  background-color: papayawhip;
+  border-radius: 25%;
+  width: 50%;
+  padding: 2em;
+  margin: 4em auto;
+  border: rgb(109, 114, 109) inset 0.5em;
+}
+li {
+  list-style: none;
+}
+img {
+  width: 20px;
+}
+div {
+  font-size: 2em;
+}
